@@ -171,7 +171,7 @@ font-weight: bold;
 }
 .player{
 position: fixed;
-bottom: 0;
+bottom: 20px;
 background-color: rgb(232, 239, 232);
 width: 69vw;
 padding: 10px 10px;
@@ -203,10 +203,12 @@ padding: 10px 10px;
 }
 .songlist{
     height: 544px;
+   
     overflow: auto;
     margin-bottom: 34px ;
 }
 .songlist ul{
+    width: 20vw;
     padding: 0 10px;
 }
 .songlist .info{
